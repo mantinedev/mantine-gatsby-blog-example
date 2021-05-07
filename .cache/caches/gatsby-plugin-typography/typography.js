@@ -1,0 +1,1 @@
+module.exports = require("/Users/rezanovaaleksandra/code/mantine-gatsby-blog-example/src/utils/typography")
