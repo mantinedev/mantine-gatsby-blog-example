@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Example blog project by Mantine team]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsby-starter-blog-demo.netlify.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 08 May 2021 11:06:33 GMT</lastBuildDate><item><title><![CDATA[Your Team is Not “Them”]]></title><description><![CDATA[This is example project for Mantine usage with Gatsby. Browse source code of this project on Github or see other examples. This project uses…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/blog/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/blog/</guid><pubDate>Sat, 01 May 2021 22:12:03 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Example blog project by Mantine team]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsby-starter-blog-demo.netlify.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 08 May 2021 11:12:44 GMT</lastBuildDate><item><title><![CDATA[Your Team is Not “Them”]]></title><description><![CDATA[This is example project for Mantine usage with Gatsby. Browse source code of this project on Github or see other examples. This project uses…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/blog/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/blog/</guid><pubDate>Sat, 01 May 2021 22:12:03 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;This is example project for Mantine usage with Gatsby. Browse source code of this project on Github or see other examples. This project uses content from &lt;a href=&quot;https://css-tricks.com/your-team-is-not-them/&quot;&gt;CSS-Tricks website&lt;/a&gt; written by &lt;a href=&quot;https://css-tricks.com/author/sdrasner/&quot;&gt;Sarah Drasner&lt;/a&gt; as an example of a blog.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Let’s talk for a moment about how we talk about our teams. This might not seem like something that needs a whole article dedicated to it, but it’s actually quite crucial. The way that we refer to our teams sends signals: to stakeholders, to your peers, to the team itself, and even to ourselves. In addressing how we speak about our teams, we’ll also talk about accountability.&lt;/p&gt;
@@ -14,32 +14,7 @@
 &lt;p&gt;And never, ever &lt;strong&gt;them&lt;/strong&gt;:&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;They didn’t adhere to this tight timeline. They just weren’t able to get this project over the line.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Do you see how the last example shirks responsibility for what occurred? Too often I will hear managers relieve themselves of their duties when shit hits the fan, and that is exactly when a manager needs to step up, and dive in to the problems that &lt;strong&gt;are their responsibility&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 66.89189189189189%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAv/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/aAAwDAQACEAMQAAABnTqg0kjI/8QAGxAAAgIDAQAAAAAAAAAAAAAAAQIAAwQREjH/2gAIAQEAAQUCtYMVSDIKjUsHBb3/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAcEAAABwEBAAAAAAAAAAAAAAAAAQIQETFBIWH/2gAIAQEABj8C7YUSK0QZS2+t/8QAHBABAAICAwEAAAAAAAAAAAAAAQARMUEhYYGR/9oACAEBAAE/IUza24uUsGxAn0Klde9wQpooC8zk5//aAAwDAQACAAMAAAAQg8//xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAIAQMBAT8QsY//xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAIAQIBAT8Qla//xAAdEAEAAwABBQAAAAAAAAAAAAABABEhUUFhcZHh/9oACAEBAAE/ECvFgEKF2mPFOBqB9uFxziYHEOmqu5tywrYgMlprxKI33P/Z&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;Photo by fauxels from Pexels&quot;
-        title=&quot;&quot;
-        src=&quot;/mantine-gatsby-blog-example/blog/static/a4b47c0890792654d4bab1c4d9ed4dc0/1c72d/pexels-fauxels-3183150.jpg&quot;
-        srcset=&quot;/mantine-gatsby-blog-example/blog/static/a4b47c0890792654d4bab1c4d9ed4dc0/a80bd/pexels-fauxels-3183150.jpg 148w,
-/mantine-gatsby-blog-example/blog/static/a4b47c0890792654d4bab1c4d9ed4dc0/1c91a/pexels-fauxels-3183150.jpg 295w,
-/mantine-gatsby-blog-example/blog/static/a4b47c0890792654d4bab1c4d9ed4dc0/1c72d/pexels-fauxels-3183150.jpg 590w,
-/mantine-gatsby-blog-example/blog/static/a4b47c0890792654d4bab1c4d9ed4dc0/a8a14/pexels-fauxels-3183150.jpg 885w,
-/mantine-gatsby-blog-example/blog/static/a4b47c0890792654d4bab1c4d9ed4dc0/fbd2c/pexels-fauxels-3183150.jpg 1180w,
-/mantine-gatsby-blog-example/blog/static/a4b47c0890792654d4bab1c4d9ed4dc0/857b3/pexels-fauxels-3183150.jpg 6000w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
+&lt;p&gt;&lt;img src=&quot;https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&amp;#x26;cs=tinysrgb&amp;#x26;dpr=2&amp;#x26;h=750&amp;#x26;w=1260&quot; alt=&quot;Photo by fauxels from Pexels&quot;&gt;
 Photo by &lt;a href=&quot;https://www.pexels.com/@fauxels?utm_content=attributionCopyText&amp;#x26;utm_medium=referral&amp;#x26;utm_source=pexels&quot;&gt;fauxels&lt;/a&gt; from &lt;a href=&quot;https://www.pexels.com/photo/top-view-photo-of-people-near-wooden-table-3183150/?utm_content=attributionCopyText&amp;#x26;utm_medium=referral&amp;#x26;utm_source=pexels&quot;&gt;Pexels&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;The wider organization&lt;/h3&gt;
 &lt;p&gt;There is another piece of this too, and it impacts how your team operates. It’s that your job is not to be the ambassador of who you manage and think of every other group as separate. You’re part of a larger system. A company is composed of groups, but those groups can only be successful if they’re working together, not if they are protecting their own org at all costs.&lt;/p&gt;
