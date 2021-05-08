@@ -1,5 +1,5 @@
-import React from "react"
-import { Text, Hr } from "@mantine/core"
+import React from "react";
+import { Text, Hr } from "@mantine/core";
 
 export const Bio = () => {
   return (
@@ -15,7 +15,7 @@ export const Bio = () => {
           size="sm"
           component="a"
           variant="link"
-          href="https://github.com/mantinedev/mantine-next-http-status-code"
+          href="https://github.com/mantinedev/mantine-gatsby-blog-example"
         >
           source code
         </Text>{" "}
@@ -31,5 +31,5 @@ export const Bio = () => {
         on Mantine docs website.
       </Text>
     </div>
-  )
-}
+  );
+};

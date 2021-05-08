@@ -22,6 +22,9 @@ var plugins = [{
     },{
       plugin: require('/Users/rezanovaaleksandra/code/mantine-gatsby-blog-example/node_modules/gatsby-plugin-transition-link/gatsby-ssr'),
       options: {"plugins":[]},
+    },{
+      plugin: require('/Users/rezanovaaleksandra/code/mantine-gatsby-blog-example/node_modules/gatsby-plugin-jss/gatsby-ssr'),
+      options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
