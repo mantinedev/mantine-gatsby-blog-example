@@ -26,33 +26,41 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-3afcab0ac48c61907736.js"
+    "url": "webpack-runtime-d503f7690345ab67b1c7.js"
   },
   {
     "url": "framework-8e528b732ab2eaadb7b7.js"
   },
   {
-    "url": "styles.e4341d76e25e5efb0870.css"
+    "url": "styles.abacb4e8d147a74fa775.css"
   },
   {
     "url": "styles-755093da0c07f4b49226.js"
   },
   {
-    "url": "app-f339ea8327be1b78b73f.js"
+    "url": "app-56ef76a9359d6a09a2e1.js"
   },
   {
     "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-0f40d706ebc58d78c1f6.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "a02af400b530814072181fe0f2b335f0"
+    "revision": "3279b86d50f17e2e3c5244bda40c68c8"
+  },
+  {
+    "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
+    "revision": "c7047792c6f91b88e0d9abc0cd819e92"
+  },
+  {
+    "url": "page-data/app-data.json",
+    "revision": "bdc78f15230cb82199c000eefaf602bb"
   },
   {
     "url": "polyfill-c38cd845a4181427323c.js"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "27cc4f8d0a85bf9f37be429d7a55e230"
+    "revision": "798bf7a1d5992d78e5b8e28e460de8cd"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
@@ -71,12 +79,12 @@ const { NavigationRoute } = workbox.routing
 
 const navigationRoute = new NavigationRoute(async ({ event }) => {
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^`), ``)
+  pathname = pathname.replace(new RegExp(`^/mantine-gatsby-blog-example/blog`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-f339ea8327be1b78b73f.js`))) {
+  if (!resources || !(await caches.match(`/mantine-gatsby-blog-example/blog/app-56ef76a9359d6a09a2e1.js`))) {
     return await fetch(event.request)
   }
 
@@ -89,7 +97,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/mantine-gatsby-blog-example/blog/offline-plugin-app-shell-fallback/index.html`
   return await caches.match(offlineShell)
 })
 
