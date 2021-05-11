@@ -1,17 +1,10 @@
-# Gatsby Starter Blog with Typescript
+# Mantine + Gatsby
 
-This project attempts to make Gatsby's [starter blog](https://github.com/gatsbyjs/gatsby-starter-blog) type-safe. In addition, styled components are used in favor of inline jsx styles.
+This repository is an example integration [mantine](https://mantine.dev) and [Gatsby](https://www.gatsbyjs.com/).
 
-## Features (in addition to the Gatsby Starter)
+## Features
 
 - [Typescript](http://www.typescriptlang.org/)
-- [Styled Components](https://www.styled-components.com/)
-- [Graphql Codegen](https://github.com/dotansimha/graphql-code-generator)
-- [Gatsby Transition Link](https://www.gatsbyjs.org/packages/gatsby-plugin-transition-link/?=transition)
+- [TypographyStylesProvider from Mantine](https://mantine.dev/core/typography-styles-provider/)
 
-## Roadmap
-
-- Make `onCreateNode` type-safe
-- Improved grapql typings generations
-
-Currently, the type graphql type definition file has everything as nullable, so a lot of nested non-null assertions are used when accessing data from queries.
+[View deployed application](https://mantinedev.github.io/mantine-gatsby-blog-example/)

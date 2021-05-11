@@ -1,16 +1,16 @@
-import { graphql, PageRendererProps } from "gatsby"
-import React from "react"
-import styled from "styled-components"
-import { Bio } from "../components/bio"
-import { Layout } from "../components/layout"
-import { FadeLink } from "../components/link"
-import { SEO } from "../components/seo"
-import { Query, SitePageContext } from "../graphql-types"
-import { TypographyStylesProvider, Title, Text } from "@mantine/core"
+import { graphql, PageRendererProps } from "gatsby";
+import React from "react";
+import styled from "styled-components";
+import { Bio } from "../components/bio";
+import { Layout } from "../components/layout";
+import { FadeLink } from "../components/link";
+import { SEO } from "../components/seo";
+import { Query, SitePageContext } from "../graphql-types";
+import { TypographyStylesProvider, Title, Text } from "@mantine/core";
 
 interface Props extends PageRendererProps {
-  pageContext: SitePageContext
-  data: Query
+  pageContext: SitePageContext;
+  data: Query;
 }
 
 const PostNavigator = styled.ul`
@@ -19,16 +19,16 @@ const PostNavigator = styled.ul`
   justify-content: space-between;
   list-style: none;
   padding: 0;
-`
+`;
 
 const BlogPostTemplate = (props: Props) => {
-  const data = props.data!
-  const post = data.markdownRemark!
-  const excerpt = post.excerpt!
-  const frontmatter = post.frontmatter!
-  const html = post.html!
-  const siteTitle = data.site!.siteMetadata!.title!
-  const { previous, next } = props.pageContext
+  const data = props.data!;
+  const post = data.markdownRemark!;
+  const excerpt = post.excerpt!;
+  const frontmatter = post.frontmatter!;
+  const html = post.html!;
+  const siteTitle = data.site!.siteMetadata!.title!;
+  const { previous, next } = props.pageContext;
 
   return (
     <Layout location={props.location} title={siteTitle}>
@@ -36,7 +36,9 @@ const BlogPostTemplate = (props: Props) => {
         title={frontmatter.title!}
         description={frontmatter.description || excerpt}
       />
-      <Title order={2}>{post.frontmatter!.title}</Title>
+      <Title order={2} style={{ color: "#1C7ED6" }}>
+        {post.frontmatter!.title}
+      </Title>
       <Text
         style={{
           marginTop: 30,
@@ -65,10 +67,10 @@ const BlogPostTemplate = (props: Props) => {
         </li>
       </PostNavigator>
     </Layout>
-  )
-}
+  );
+};
 
-export default BlogPostTemplate
+export default BlogPostTemplate;
 
 export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!) {
@@ -89,4 +91,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;
